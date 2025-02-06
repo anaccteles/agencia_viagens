@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência de Viagens Fictícia</title>
+    <!-- Link para o Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Agência Viagem</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destinos">Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pacotes">Pacotes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Inicial com Carrossel -->
+    <section id="home" class="text-white text-center">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" style="height: 600px;">
+                <div class="carousel-item active" style="height: 600px;">
+                    <img src="imagens/paris.jpg" class="d-block w-100" alt="Paris" style="height: 600px;">
+                    <div class="carousel-caption d-block">
+                        <h5>Explore Paris</h5>
+                        <p>A cidade da luz espera por você!</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="height: 600px;">
+                    <img src="imagens/machu_pitchu.jpg" class="d-block w-100" alt="Machu Picchu" style="height: 600px;">
+                    <div class=" carousel-caption d-block">
+                        <h5>Machu Picchu</h5>
+                        <p>Uma das 7 maravilhas do mundo moderno.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="height: 600px;">
+                    <img src="imagens/cataratas.jpg" class="d-block w-100" alt="Cataratas do Iguaçu"
+                        style="height: 600px;">
+                    <div class="carousel-caption d-block">
+                        <h5>Cataratas do Iguaçu</h5>
+                        <p>Explore as maravilhas naturais entre Brasil e Argentina.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Sobre Nós -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Sobre Nós</h2>
+            <p class="text-center">Somos uma agência especializada em criar experiências de viagem inesquecíveis. Nosso
+                objetivo é oferecer pacotes personalizados para atender às suas expectativas de viagem.</p>
+        </div>
+    </section>
+
+    <!-- Destinos -->
+    <section id="destinos" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Destinos Populares</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://viajandopara.com.br/wp-content/uploads/2019/10/paris_900x600.jpg"
+                            class="card-img-top" alt="Paris">
+                        <div class="card-body">
+                            <h5 class="card-title">Paris</h5>
+                            <p class="card-text">Explore a cidade da luz com suas maravilhas arquitetônicas e culturais.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/19/d2/50/27/machu-picchu.jpg"
+                            class="card-img-top" alt="Machu Picchu">
+                        <div class="card-body">
+                            <h5 class="card-title">Machu Picchu</h5>
+                            <p class="card-text">Uma das sete maravilhas do mundo moderno. Uma experiência única de
+                                aventura.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://www.welcomeargentina.com/iguazu/images/iguazu4.jpg" class="card-img-top"
+                            alt="Cataratas do Iguaçu">
+                        <div class="card-body">
+                            <h5 class="card-title">Cataratas do Iguaçu</h5>
+                            <p class="card-text">Uma das maiores quedas d'água do mundo, localizada entre Brasil e
+                                Argentina.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pacotes -->
+    <section id="pacotes" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Pacotes de Viagem</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://viajandopara.com.br/wp-content/uploads/2019/10/paris_900x600.jpg"
+                            class="card-img-top" alt="Pacote Paris">
+                        <div class="card-body">
+                            <h5 class="card-title">Pacote Paris</h5>
+                            <p class="card-text">7 dias de pura magia na cidade mais romântica do mundo. Inclui
+                                passagens aéreas e hospedagem.</p>
+                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/19/d2/50/27/machu-picchu.jpg"
+                            class="card-img-top" alt="Pacote Machu Picchu">
+                        <div class="card-body">
+                            <h5 class="card-title">Pacote Machu Picchu</h5>
+                            <p class="card-text">10 dias de aventura e história nas montanhas do Peru. Inclui ingressos
+                                e guia turístico.</p>
+                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://www.welcomeargentina.com/iguazu/images/iguazu4.jpg" class="card-img-top"
+                            alt="Pacote Cataratas do Iguaçu">
+                        <div class="card-body">
+                            <h5 class="card-title">Pacote Cataratas do Iguaçu</h5>
+                            <p class="card-text">Pacote de 5 dias explorando uma das maravilhas naturais do mundo.
+                                Inclui passeios guiados.</p>
+                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Entre em Contato</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Agência Viagem. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Link para os Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
