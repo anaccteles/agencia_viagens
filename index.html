@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agência de Viagens Fictícia</title>
+    <title>AC Travel Hub</title>
     <!-- Link para o Bootstrap 5.3 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -19,7 +19,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Agência Viagem</a>
+            <a class="navbar-brand" href="#">AC Travel Hub</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -59,21 +59,22 @@
             </div>
             <div class="carousel-inner" style="height: 600px;">
                 <div class="carousel-item active" style="height: 600px;">
-                    <img src="imagens/paris.jpg" class="d-block w-100" alt="Paris" style="height: 600px;">
+                    <img src="imagens/paris.jpeg" class="d-block w-100" alt="Paris" style="height: 600px;">
                     <div class="carousel-caption d-block">
                         <h5>Explore Paris</h5>
                         <p>A cidade da luz espera por você!</p>
                     </div>
                 </div>
                 <div class="carousel-item" style="height: 600px;">
-                    <img src="imagens/machu_pitchu.jpg" class="d-block w-100" alt="Machu Picchu" style="height: 600px;">
+                    <img src="imagens/machu_pittchu.jpeg" class="d-block w-100" alt="Machu Picchu"
+                        style="height: 600px;">
                     <div class=" carousel-caption d-block">
                         <h5>Machu Picchu</h5>
                         <p>Uma das 7 maravilhas do mundo moderno.</p>
                     </div>
                 </div>
                 <div class="carousel-item" style="height: 600px;">
-                    <img src="imagens/cataratas.jpg" class="d-block w-100" alt="Cataratas do Iguaçu"
+                    <img src="imagens/cataratas.jpeg" class="d-block w-100" alt="Cataratas do Iguaçu"
                         style="height: 600px;">
                     <div class="carousel-caption d-block">
                         <h5>Cataratas do Iguaçu</h5>
@@ -98,8 +99,16 @@
     <section id="sobre" class="py-5">
         <div class="container">
             <h2 class="text-center">Sobre Nós</h2>
-            <p class="text-center">Somos uma agência especializada em criar experiências de viagem inesquecíveis. Nosso
-                objetivo é oferecer pacotes personalizados para atender às suas expectativas de viagem.</p>
+            <p class="text-center">Conectamos você aos destinos mais
+                incríveis do mundo, oferecendo experiências personalizadas e momentos inesquecíveis. <br> Criamos
+                pacotes
+                completos com passagens, hospedagem e roteiros exclusivos, sempre com foco em conforto, segurança e
+                aventura. <br> Desde viagens românticas até escapadas em família, nossa missão é realizar seus sonhos de
+                viagem. <br> Estamos aqui para garantir praticidade e suporte em todas as etapas da sua jornada. <br>
+                Vamos
+                planejar sua próxima aventura juntos! ✈️🌍
+            </p>
+
         </div>
     </section>
 
@@ -108,36 +117,34 @@
         <div class="container">
             <h2 class="text-center">Destinos Populares</h2>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="https://viajandopara.com.br/wp-content/uploads/2019/10/paris_900x600.jpg"
-                            class="card-img-top" alt="Paris">
-                        <div class="card-body">
+                <div class="col-md-4 py-3">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="imagens/destino_paris.jpg" class="card-img-top img-fluid" alt="Paris">
+                        <div class="card-body d-flex flex-column justify-content-between">
                             <h5 class="card-title">Paris</h5>
-                            <p class="card-text">Explore a cidade da luz com suas maravilhas arquitetônicas e culturais.
-                            </p>
+                            <p class="card-text">Explore a cidade da luz, famosa por seu charme irresistível, cafés
+                                elegantes e monumentos icônicos, como a Torre Eiffel e a Catedral de Notre-Dame.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/19/d2/50/27/machu-picchu.jpg"
-                            class="card-img-top" alt="Machu Picchu">
-                        <div class="card-body">
-                            <h5 class="card-title">Machu Picchu</h5>
-                            <p class="card-text">Uma das sete maravilhas do mundo moderno. Uma experiência única de
-                                aventura.</p>
+                <div class="col-md-4 py-3">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="imagens/destino_rj.jpg" class="card-img-top img-fluid" alt="Rio de Janeiro">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Rio de Janeiro</h5>
+                            <p class="card-text">Descubra a cidade maravilhosa, com suas praias icônicas, paisagens
+                                deslumbrantes e uma vibrante cultura carioca.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="https://www.welcomeargentina.com/iguazu/images/iguazu4.jpg" class="card-img-top"
-                            alt="Cataratas do Iguaçu">
-                        <div class="card-body">
-                            <h5 class="card-title">Cataratas do Iguaçu</h5>
-                            <p class="card-text">Uma das maiores quedas d'água do mundo, localizada entre Brasil e
-                                Argentina.</p>
+                <div class="col-md-4 py-3">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="imagens/destino_maceio.jpg" class="card-img-top img-fluid" alt="Maceió">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Maceió</h5>
+                            <p class="card-text">Encante-se com águas cristalinas, praias paradisíacas e o calor
+                                acolhedor
+                                do nordeste brasileiro.</p>
                         </div>
                     </div>
                 </div>
@@ -145,44 +152,43 @@
         </div>
     </section>
 
+
     <!-- Pacotes -->
     <section id="pacotes" class="py-5">
         <div class="container">
             <h2 class="text-center">Pacotes de Viagem</h2>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="https://viajandopara.com.br/wp-content/uploads/2019/10/paris_900x600.jpg"
-                            class="card-img-top" alt="Pacote Paris">
+                <div class="col-md-4 py-3">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="imagens/pacote_es.jpg" class="card-img-top" alt="Pacote Espirito Santo">
                         <div class="card-body">
-                            <h5 class="card-title">Pacote Paris</h5>
-                            <p class="card-text">7 dias de pura magia na cidade mais romântica do mundo. Inclui
-                                passagens aéreas e hospedagem.</p>
-                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                            <h5 class="card-title">Pacote Espírito Santo</h5>
+                            <p class="card-text">5 dias explorando paisagens exuberantes e praias paradisíacas. Inclui
+                                passagens aéreas e hospedagem e um passeio incrível de Canoa Havaiana! </p>
+                            <a class="btn btn-primary" href="#contato">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/19/d2/50/27/machu-picchu.jpg"
-                            class="card-img-top" alt="Pacote Machu Picchu">
+                <div class="col-md-4 py-3">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="imagens/pacote_sc.jpg" class="card-img-top" alt="Pacote Santa Catarina">
                         <div class="card-body">
-                            <h5 class="card-title">Pacote Machu Picchu</h5>
-                            <p class="card-text">10 dias de aventura e história nas montanhas do Peru. Inclui ingressos
-                                e guia turístico.</p>
-                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                            <h5 class="card-title">Pacote Santa Catarina</h5>
+                            <p class="card-text">7 dias desfrutando de belas praias e cultura vibrante no sul do Brasil.
+                                Inclui passagens aéreas, hospedagem e guia turístico.</p>
+                            <a class="btn btn-primary" href="#contato">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="https://www.welcomeargentina.com/iguazu/images/iguazu4.jpg" class="card-img-top"
-                            alt="Pacote Cataratas do Iguaçu">
+                <div class="col-md-4 py-3">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="imagens/pacote_natal.jpg" class="card-img-top" alt="Pacote Natal">
                         <div class="card-body">
-                            <h5 class="card-title">Pacote Cataratas do Iguaçu</h5>
-                            <p class="card-text">Pacote de 5 dias explorando uma das maravilhas naturais do mundo.
+                            <h5 class="card-title">Pacote Natal</h5>
+                            <p class="card-text">10 dias de sol, mar cristalino e dunas encantadoras. Inclui passagens
+                                aéreas e hospedagem.
                                 Inclui passeios guiados.</p>
-                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                            <a class="btn btn-primary" href="#contato">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -214,7 +220,7 @@
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2025 Agência Viagem. Todos os direitos reservados.</p>
+        <p>&copy; 2025 AC Travel Hub . Todos os direitos reservados.</p>
     </footer>
 
     <!-- Link para os Scripts do Bootstrap -->
