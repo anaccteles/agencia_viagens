@@ -7,7 +7,7 @@ Este projeto foi desenvolvido utilizando HTML e Bootstrap 5.3, com o objetivo de
 🚀 Como rodar o projeto:
 Clone o repositório:
 
-git clone https://github.com/anaccteles/agencia-viagens.git
+git clone https://github.com/anaccteles/agencia_viagens.git
 
 Abra o arquivo index.html no seu navegador para visualizar o site localmente. Você pode usar qualquer editor de código para modificar o site, como o VS Code, Sublime Text, etc. 💻
 
