@@ -1,5 +1,8 @@
 🌍 AC Travel Hub - Site de Viagens Fictício ✈️
+<<<<<<< HEAD
 
+=======
+>>>>>>> 03fff9b (Inserindo a pasta da modelagem do banco de dados e alterando informações do readme)
 Bem-vindo ao repositório do projeto AC Travel Hub, um site fictício de uma agência de viagens, onde você pode explorar pacotes, destinos e entrar em contato com a nossa equipe! 🌟
 
 Este projeto foi desenvolvido utilizando HTML e Bootstrap 5.3, com o objetivo de criar uma estrutura básica para uma agência de viagens online. 🌐
